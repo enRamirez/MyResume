@@ -1,32 +1,37 @@
-img{
-    border-radius: 100%;
-    width: 100%;
-}
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
 
 body{
-    background-image: url(/Web101_MyPort/Images/background.webp);
+    background-image: url(/Images/background.webp);
 }
-
-
-
-
-
-
-
 
 .container {  
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 30% 20% 50%;
     grid-template-rows: .5fr 0.5fr 1.8fr 0.5fr 1fr;
-    gap: 0px 80px;
+    gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas:
-      "image name"
-      "title aboutme"
-      "contact skills"
-      ". ."
-      ". .";
+      "image . name"
+      "title . aboutme"
+      "contact . skills"
+      ". . ."
+      ". . .";
   }
+
+  .profileImage{
+    margin-left: 115px;
+    border-radius: 100%;
+    width: 60%;   
+}
+
+.img{
+  border-radius: 100%;
+  width: 60%;
+}
   
   /* .image { 
     grid-area: image; 
@@ -70,7 +75,17 @@ body{
   .name { 
     grid-area: name;
     font-size: 50px;
-    color: aliceblue; 
+    color: aliceblue;
+}
+
+.fName{
+  margin-bottom: 10px;
+}
+
+.lName{
+  margin-left: 120px;
+  margin-top: 10px;
+  
 }
   
   .aboutme { 
