@@ -93,7 +93,15 @@ body{
     color: white; 
 }
   
-  .skills { grid-area: skills; }
+  .skills { 
+    grid-area: skills;
+    font-size: 200%;
+    color: white; 
+  }
+
+  #skills{
+    font-size: 70%;
+  }
   
   #aboutme{
     font-size: 150%;
