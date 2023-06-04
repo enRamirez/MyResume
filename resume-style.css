@@ -1,9 +1,3 @@
-/* *{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-} */
-
 body{
     background-image: url(/Images/background.webp);
 }
@@ -32,10 +26,6 @@ body{
   border-radius: 100%;
   width: 60%;
 }
-  
-  /* .image { 
-    grid-area: image; 
-} */
   
   .title { 
     grid-area: title; 
@@ -88,21 +78,23 @@ body{
   
 }
   
-  .aboutme { 
+.aboutme { 
     grid-area: aboutme;
     color: white; 
 }
   
-  .skills { 
+.skills { 
     grid-area: skills;
     font-size: 200%;
     color: white; 
   }
 
-  #skills{
+#skills{
     font-size: 70%;
   }
   
-  #aboutme{
+#aboutme{
     font-size: 150%;
   }
+
+  /* website isnt working correctly, testing github */
