@@ -95,5 +95,6 @@ body{
   
   .skills { grid-area: skills; }
   
-  /* Need to catch employers eye */
-  /* functionality */
+  #aboutme{
+    font-size: 150%;
+  }
